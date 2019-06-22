@@ -6,17 +6,17 @@ Jupyter notebookとして動きます.
 
 ## 使い方
 
-### Github上でそのまま読む
+### Github・nbviewer上でそのまま読む
 
 この場合は特にPythonライブラリ・環境は必要ありません.
 
 そのままURLをたどって読んでください.
 
-### Jupyter notebook上で読む
+### 手元で動かす
 
 この場合はPython環境が必要です.
 
-## Jupyter notebookで読む場合の初期設定
+## 手元で動かす場合の設定
 
 Python3を使える環境を作って必要なライブラリをpip installしてください.
 
@@ -59,7 +59,7 @@ requirements.txtに必要なライブラリがあるのでそれを使ってイ�
 (devlove) $ pip install -r requirements.txt
 ```
 
-ちなみに, 同包しているrequirements.inはpip-tools用の設定です(ご存知の方はこちらを使ってもかまいません).
+ちなみに, 同包しているrequirements.inは[pip-tools](https://pypi.org/project/pip-tools/)用の設定です.
 
 ### Jupyter notebookとして起動
 
