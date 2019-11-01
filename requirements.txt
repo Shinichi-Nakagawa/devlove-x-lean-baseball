@@ -4,7 +4,6 @@
 #
 #    pip-compile requirements.in
 #
-appnope==0.1.0            # via ipython
 attrs==19.1.0             # via jsonschema
 backcall==0.1.0           # via ipython
 bleach==3.1.0             # via nbconvert
@@ -40,7 +39,7 @@ pandocfilters==1.4.2      # via nbconvert
 parso==0.5.0              # via jedi
 pexpect==4.7.0            # via ipython
 pickleshare==0.7.5        # via ipython
-pillow==6.0.0             # via bokeh
+pillow==6.2.0             # via bokeh
 prometheus-client==0.7.1  # via notebook
 prompt-toolkit==2.0.9     # via ipython, jupyter-console
 ptyprocess==0.6.0         # via pexpect, terminado
